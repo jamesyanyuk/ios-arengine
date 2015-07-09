@@ -31,7 +31,7 @@
 		DC1D6A001B4EC200007C890B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC1D6A021B4EC200007C890B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC1D6A051B4EC200007C890B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC1D6A071B4EC200007C890B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DC1D6A071B4EC200007C890B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../ios-arengine/Images.xcassets"; sourceTree = "<group>"; };
 		DC1D6A0A1B4EC200007C890B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DC1D6A101B4EC200007C890B /* ios-arengineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-arengineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1D6A151B4EC200007C890B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				DC1D69FD1B4EC200007C890B /* ios-arengine */,
+				DC1D6A271B4EC572007C890B /* Resources */,
+				DC1D6A261B4EC572007C890B /* Frameworks */,
 				DC1D6A131B4EC200007C890B /* ios-arengineTests */,
 				DC1D69FC1B4EC200007C890B /* Products */,
 			);
@@ -77,11 +79,11 @@
 		DC1D69FD1B4EC200007C890B /* ios-arengine */ = {
 			isa = PBXGroup;
 			children = (
-				DC1D6A001B4EC200007C890B /* AppDelegate.swift */,
-				DC1D6A021B4EC200007C890B /* ViewController.swift */,
-				DC1D6A041B4EC200007C890B /* Main.storyboard */,
-				DC1D6A071B4EC200007C890B /* Images.xcassets */,
-				DC1D6A091B4EC200007C890B /* LaunchScreen.xib */,
+				DC1D6A281B4EC5EA007C890B /* Application */,
+				DC1D6A221B4EC375007C890B /* Models */,
+				DC1D6A211B4EC36E007C890B /* Views */,
+				DC1D6A201B4EC354007C890B /* Controllers */,
+				DC1D6A231B4EC37A007C890B /* Storyboards */,
 				DC1D69FE1B4EC200007C890B /* Supporting Files */,
 			);
 			path = "ios-arengine";
@@ -110,6 +112,60 @@
 				DC1D6A151B4EC200007C890B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC1D6A201B4EC354007C890B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D6A021B4EC200007C890B /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DC1D6A211B4EC36E007C890B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DC1D6A221B4EC375007C890B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DC1D6A231B4EC37A007C890B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D6A041B4EC200007C890B /* Main.storyboard */,
+				DC1D6A091B4EC200007C890B /* LaunchScreen.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DC1D6A261B4EC572007C890B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1D6A271B4EC572007C890B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D6A071B4EC200007C890B /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC1D6A281B4EC5EA007C890B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DC1D6A001B4EC200007C890B /* AppDelegate.swift */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
